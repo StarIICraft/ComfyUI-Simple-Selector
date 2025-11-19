@@ -2,6 +2,7 @@ Simple Selector Int (最后有效节点序号选择器)
 🇨🇳 中文说明
 节点名称：最后有效节点序号选择器 (SimpleSelectorInt)
 分类：MyCustomNodes/Utils
+<img width="1633" height="929" alt="image" src="https://github.com/user-attachments/assets/0e9611dd-8d5a-4bc9-9e90-9c9bf636b25f" />
 
 核心功能
 这是一个逻辑控制节点。它拥有5个通用的输入端口，会按照倒序（从5到1）的顺序检查连接状态，并输出第一个被发现是“有效激活”的端口序号（整数）。
@@ -46,4 +47,5 @@ Returns the index number of the active port (1, 2, 3, 4, or 5).
 Returns 0 if no inputs are connected or if all connected nodes are muted.
 Use Cases
 Acting as a logic controller when paired with "Index Switch" nodes.
+
 Quickly switching between workflow configurations by simply Muting nodes, without the need to disconnect wires.
